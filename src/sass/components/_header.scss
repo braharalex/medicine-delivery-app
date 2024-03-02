@@ -1,0 +1,23 @@
+.header {
+    position: relative;
+    min-height: 60px;
+}
+
+.site-nav__list {
+    display: flex;
+    align-items: center;
+    
+}
+
+.site-nav__item+.site-nav__item {
+        margin-left: 50px;
+    
+}
+
+.site-nav__link {
+    display: block;
+    color: var(--title-text-color);
+    @include font(18, 500, 1.14, 0.02em);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
